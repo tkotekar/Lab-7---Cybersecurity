@@ -15,7 +15,7 @@ Optional:
 - Bonus 1: Additional Exploit 1
 - Bonus 2: Additional Exploit 2
  
-Walkthrough 
+## Walkthrough 
 
 Exploit 1: User Enum 
 Version: WordPress 4.2
