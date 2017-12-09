@@ -16,7 +16,7 @@ Optional:
 - Bonus 2: Additional Exploit 2
  
 ## Walkthrough 
-
+(gifs for walkthroughs are in the folder, I was unable to imbed them into the README)
 Exploit 1: User Enum 
 Version: WordPress 4.2
 This vulnerability allows anyone the ability to enumerate a list of valid users names allowing an easier brute force attack for any hacker. This is a design issue.
