@@ -6,16 +6,36 @@ User Stories
 The following required problems are completed:
 
 Required:
-Exploit 1:User Enum
-Exploit 2:XSS
-Exploit 3:XSS2
-
+- Exploit 1:User Enum
+- Exploit 2:XSS
+- Exploit 3:XSS2
 optional:
 
-Bonus 1: Additional Exploit 1
-Bonus 2: Additional Exploit 2
+- Bonus 1: Additional Exploit 1
+- Bonus 2: Additional Exploit 2
  
- 
+Walkthrough 
+
+Exploit 1: User Enum 
+Version: WordPress 4.2
+This vulnerability allows anyone the ability to enumerate a list of valid users names allowing an easier brute force attack for any hacker. This is a design issue.
+
+
+
+Exploit 2: XSS
+Version: WordPress 4.5.3
+This vulnerability allows users with editor privileges to run XSS on WordPress with versions prior to 4.2.3. User can embed cross site scripting on their post. This can be used for privilege escalation if users viewed the pages
+
+
+Exploit 3: XSS2
+Version: WordPress 4.2
+If an admin is tricked into loading a media file which goes overe the max file size then a file name will let execution of cross site scripting. This is becuase there is no file name sanitation
+
+
+
+
+
+
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
